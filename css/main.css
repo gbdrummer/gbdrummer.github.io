@@ -109,7 +109,7 @@ input, textarea, button {
 .chassis .width-constraint {
     width: 100%;
     min-width: 320px;
-    max-width: 1920px;
+    max-width: 768px;
     margin: 0 auto;
     padding-left: 6.18vw;
     padding-right: 6.18vw;
@@ -122,10 +122,10 @@ input, textarea, button {
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 768px) {
     .chassis .width-constraint {
-        padding-left: 118.656px;
-        padding-right: 118.656px;
+        padding-left: 47.4624px;
+        padding-right: 47.4624px;
     }
 }
 
@@ -264,250 +264,6 @@ html.chassis {
     }
 }
 
-@media screen and (min-width: 640px) {
-    html.chassis {
-        font-size: 17px;
-        line-height: 1.6357546794957638;
-    }
-
-    .chassis body {
-        line-height: 1.6357546794957638;
-    }
-
-    .chassis h1 {
-        line-height: 1.4338196846856386;
-        margin-bottom: .8861492988743817em;
-    }
-
-    .chassis h2 {
-        line-height: 1.5109519891850727;
-        margin-bottom: .9338196846856384em;
-    }
-
-    .chassis h3 {
-        line-height: 1.6357546794957638;
-        margin-bottom: 1.0109519891850727em;
-    }
-
-    .chassis h4 {
-        line-height: 1.8376896743058888;
-        margin-bottom: 1.1357546794957636em;
-    }
-
-    .chassis h5 {
-        line-height: 1.8376896743058888;
-        margin-bottom: 1.1357546794957636em;
-    }
-
-    .chassis h6 {
-        line-height: 1.8376896743058888;
-        margin-bottom: 1.1357546794957636em;
-    }
-
-    .chassis legend {
-        line-height: 1.5109519891850727;
-        margin-bottom: .9338196846856384em;
-    }
-
-    .chassis section, .chassis nav, .chassis form {
-        margin-bottom: 2.646706668680837em;
-    }
-
-    .chassis nav section, .chassis section nav, .chassis nav nav,
-    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
-    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
-        margin-bottom: 1.6357546794957638em;
-    }
-
-    .chassis p {
-        margin-bottom: 1.6357546794957638em;
-        line-height: 1.6357546794957638;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    html.chassis {
-        font-size: 18px;
-        line-height: 1.7170357209177938;
-    }
-
-    .chassis body {
-        line-height: 1.7170357209177938;
-    }
-
-    .chassis h1 {
-        line-height: 1.464866279867866;
-        margin-bottom: .905337149931957em;
-    }
-
-    .chassis h2 {
-        line-height: 1.5611864354248755;
-        margin-bottom: .9648662798678658em;
-    }
-
-    .chassis h3 {
-        line-height: 1.7170357209177938;
-        margin-bottom: 1.0611864354248752em;
-    }
-
-    .chassis h4 {
-        line-height: 1.969205161967722;
-        margin-bottom: 1.217035720917794em;
-    }
-
-    .chassis h5 {
-        line-height: 1.969205161967722;
-        margin-bottom: 1.217035720917794em;
-    }
-
-    .chassis h6 {
-        line-height: 1.969205161967722;
-        margin-bottom: 1.217035720917794em;
-    }
-
-    .chassis legend {
-        line-height: 1.5611864354248755;
-        margin-bottom: .9648662798678658em;
-    }
-
-    .chassis section, .chassis nav, .chassis form {
-        margin-bottom: 2.7782221563426694em;
-    }
-
-    .chassis nav section, .chassis section nav, .chassis nav nav,
-    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
-    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
-        margin-bottom: 1.7170357209177938em;
-    }
-
-    .chassis p {
-        margin-bottom: 1.7170357209177938em;
-        line-height: 1.7170357209177938;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    html.chassis {
-        font-size: 19px;
-        line-height: 1.7798450935435028;
-    }
-
-    .chassis body {
-        line-height: 1.7798450935435028;
-    }
-
-    .chassis h1 {
-        line-height: 1.4888573253988295;
-        margin-bottom: .9201644314957388em;
-    }
-
-    .chassis h2 {
-        line-height: 1.600004762519621;
-        margin-bottom: .9888573253988296em;
-    }
-
-    .chassis h3 {
-        line-height: 1.7798450935435028;
-        margin-bottom: 1.1000047625196208em;
-    }
-
-    .chassis h4 {
-        line-height: 2.0708328616881766;
-        margin-bottom: 1.279845093543503em;
-    }
-
-    .chassis h5 {
-        line-height: 2.0708328616881766;
-        margin-bottom: 1.279845093543503em;
-    }
-
-    .chassis h6 {
-        line-height: 2.0708328616881766;
-        margin-bottom: 1.279845093543503em;
-    }
-
-    .chassis legend {
-        line-height: 1.600004762519621;
-        margin-bottom: .9888573253988296em;
-    }
-
-    .chassis section, .chassis nav, .chassis form {
-        margin-bottom: 2.8798498560631236em;
-    }
-
-    .chassis nav section, .chassis section nav, .chassis nav nav,
-    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
-    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
-        margin-bottom: 1.7798450935435028em;
-    }
-
-    .chassis p {
-        margin-bottom: 1.7798450935435028em;
-        line-height: 1.7798450935435028;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    html.chassis {
-        font-size: 20px;
-        line-height: 1.8283665448744848;
-    }
-
-    .chassis body {
-        line-height: 1.8283665448744848;
-    }
-
-    .chassis h1 {
-        line-height: 1.5073908706237908;
-        margin-bottom: .9316187923767982em;
-    }
-
-    .chassis h2 {
-        line-height: 1.6299926686256414;
-        margin-bottom: 1.0073908706237906em;
-    }
-
-    .chassis h3 {
-        line-height: 1.8283665448744848;
-        margin-bottom: 1.1299926686256414em;
-    }
-
-    .chassis h4 {
-        line-height: 2.1493422191251788;
-        margin-bottom: 1.3283665448744846em;
-    }
-
-    .chassis h5 {
-        line-height: 2.1493422191251788;
-        margin-bottom: 1.3283665448744846em;
-    }
-
-    .chassis h6 {
-        line-height: 2.1493422191251788;
-        margin-bottom: 1.3283665448744846em;
-    }
-
-    .chassis legend {
-        line-height: 1.6299926686256414;
-        margin-bottom: 1.0073908706237906em;
-    }
-
-    .chassis section, .chassis nav, .chassis form {
-        margin-bottom: 2.9583592135001266em;
-    }
-
-    .chassis nav section, .chassis section nav, .chassis nav nav,
-    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
-    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
-        margin-bottom: 1.8283665448744848em;
-    }
-
-    .chassis p {
-        margin-bottom: 1.8283665448744848em;
-        line-height: 1.8283665448744848;
-    }
-}
-
 .chassis a {
     color: inherit;
     margin: 0;
@@ -560,6 +316,10 @@ html.chassis {
     height: 100vh;
 }
 
+.chassis .polymath .text-bold {
+    font-weight: bold;
+}
+
 .chassis .polymath > header {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 61.8%;
@@ -579,21 +339,20 @@ html.chassis {
 
 .chassis .polymath > header .logo {
     display: block;
-    max-width: 768px;
     margin: 0 auto;
     fill: white;
+}
+
+.chassis .polymath > header .message {
+    font-size: 20.352px;
+    font-size: 1.272019649514069rem;
+    text-align: center;
 }
 
 .chassis .polymath main {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
         flex: 1 1 auto;
-}
-
-.chassis .polymath main .width-constraint {
-    font-size: 20.352px;
-    font-size: 1.272019649514069rem;
-    text-align: center;
 }
 
 .chassis .polymath > footer {
