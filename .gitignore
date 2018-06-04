@@ -1,8 +1,0 @@
-dist
-.*
-!.gitignore
-!.npmignore
-!.firebaserc
-node_modules
-_*
-*.log

@@ -1,0 +1,620 @@
+@charset "UTF-8";
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    line-height: 1.3827882373436318;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+q, blockquote {
+    quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
+nav, section, summary {
+    display: block;
+}
+
+input, textarea, button {
+    font-size: inherit;
+    line-height: 1.3827882373436318;
+}
+
+.chassis .hidden, .chassis [hidden] {
+    display: none !important;
+}
+
+.chassis .invisible {
+    visibility: hidden !important;
+}
+
+.chassis .transparent {
+    opacity: 0 !important;
+}
+
+.chassis .text-normal {
+    font-style: normal !important;
+    -webkit-font-feature-settings: normal !important;
+            font-feature-settings: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+}
+
+.chassis .text-italic {
+    font-style: italic !important;
+}
+
+.chassis .text-oblique {
+    font-style: oblique !important;
+}
+
+.chassis .text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.chassis .text-small-caps {
+    -webkit-font-feature-settings: "c2sc" !important;
+            font-feature-settings: "c2sc" !important;
+    font-variant: small-caps !important;
+}
+
+.chassis .text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.chassis .text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.chassis .text-underline {
+    text-decoration: underline !important;
+}
+
+.chassis .text-strikethrough {
+    text-decoration: line-through !important;
+}
+
+.chassis .text-nowrap {
+    white-space: nowrap !important;
+}
+
+.chassis .width-constraint {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 6.18vw;
+    padding-right: 6.18vw;
+}
+
+@media screen and (max-width: 320px) {
+    .chassis .width-constraint {
+        padding-left: 19.776px;
+        padding-right: 19.776px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .chassis .width-constraint {
+        padding-left: 118.656px;
+        padding-right: 118.656px;
+    }
+}
+
+html.chassis {
+    font-size: 16px;
+}
+
+.chassis body {
+    min-width: 320px;
+    font-family: initial;
+    font-family: -apple-system,
+                 BlinkMacSystemFont,
+                 'Avenir Next',
+                 Avenir,
+                 Helvetica,
+                 Arial,
+                 sans-serif;
+    color: initial;
+    color: rgb(68, 68, 68);
+}
+
+.chassis h1 {
+    font-size: 1.618033988749895em;
+    line-height: 1.337195101796658;
+    margin-bottom: .8264320225002101em;
+}
+
+.chassis h2 {
+    font-size: 1.272019649514069em;
+    line-height: 1.354610129921921;
+    margin-bottom: .837195101796658em;
+}
+
+.chassis h3 {
+    font-size: 1em;
+    line-height: 1.3827882373436318;
+    margin-bottom: .854610129921921em;
+}
+
+.chassis h4 {
+    font-size: .7861513777574233em;
+    line-height: 1.4283813728906054;
+    margin-bottom: .8827882373436318em;
+}
+
+.chassis h5 {
+    font-size: .7861513777574233em;
+    line-height: 1.4283813728906054;
+    margin-bottom: .8827882373436318em;
+}
+
+.chassis h6 {
+    font-size: .7861513777574233em;
+    line-height: 1.4283813728906054;
+    margin-bottom: .8827882373436318em;
+}
+
+.chassis legend {
+    font-size: 20.352px;
+    font-size: 1.272019649514069rem;
+    line-height: 1.354610129921921;
+    margin-bottom: .837195101796658em;
+}
+
+.chassis section, .chassis nav, .chassis form {
+    margin-bottom: 2.237398367265553em;
+}
+
+.chassis nav section, .chassis section nav, .chassis nav nav, .chassis article,
+.chassis fieldset, .chassis figure, .chassis pre, .chassis blockquote,
+.chassis table, .chassis canvas, .chassis embed {
+    margin-bottom: 1.3827882373436318em;
+}
+
+.chassis p {
+    margin-bottom: 1.3827882373436318em;
+}
+
+@media screen and (min-width: 320px) {
+    html.chassis {
+        line-height: 1.5303307232810004;
+    }
+
+    .chassis body {
+        line-height: 1.5303307232810004;
+    }
+
+    .chassis h1 {
+        line-height: 1.3935513166400795;
+        margin-bottom: .861262078750736em;
+    }
+
+    .chassis h2 {
+        line-height: 1.4457964010158681;
+        margin-bottom: .8935513166400796em;
+    }
+
+    .chassis h3 {
+        line-height: 1.5303307232810004;
+        margin-bottom: .9457964010158683em;
+    }
+
+    .chassis h4 {
+        line-height: 1.667110129921921;
+        margin-bottom: 1.0303307232810004em;
+    }
+
+    .chassis h5 {
+        line-height: 1.667110129921921;
+        margin-bottom: 1.0303307232810004em;
+    }
+
+    .chassis h6 {
+        line-height: 1.667110129921921;
+        margin-bottom: 1.0303307232810004em;
+    }
+
+    .chassis legend {
+        line-height: 1.4457964010158681;
+        margin-bottom: .8935513166400796em;
+    }
+
+    .chassis section, .chassis nav, .chassis form {
+        margin-bottom: 2.4761271242968688em;
+    }
+
+    .chassis nav section, .chassis section nav, .chassis nav nav,
+    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
+    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
+        margin-bottom: 1.5303307232810004em;
+    }
+
+    .chassis p {
+        margin-bottom: 1.5303307232810004em;
+        line-height: 1.5303307232810004;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html.chassis {
+        font-size: 17px;
+        line-height: 1.6357546794957638;
+    }
+
+    .chassis body {
+        line-height: 1.6357546794957638;
+    }
+
+    .chassis h1 {
+        line-height: 1.4338196846856386;
+        margin-bottom: .8861492988743817em;
+    }
+
+    .chassis h2 {
+        line-height: 1.5109519891850727;
+        margin-bottom: .9338196846856384em;
+    }
+
+    .chassis h3 {
+        line-height: 1.6357546794957638;
+        margin-bottom: 1.0109519891850727em;
+    }
+
+    .chassis h4 {
+        line-height: 1.8376896743058888;
+        margin-bottom: 1.1357546794957636em;
+    }
+
+    .chassis h5 {
+        line-height: 1.8376896743058888;
+        margin-bottom: 1.1357546794957636em;
+    }
+
+    .chassis h6 {
+        line-height: 1.8376896743058888;
+        margin-bottom: 1.1357546794957636em;
+    }
+
+    .chassis legend {
+        line-height: 1.5109519891850727;
+        margin-bottom: .9338196846856384em;
+    }
+
+    .chassis section, .chassis nav, .chassis form {
+        margin-bottom: 2.646706668680837em;
+    }
+
+    .chassis nav section, .chassis section nav, .chassis nav nav,
+    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
+    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
+        margin-bottom: 1.6357546794957638em;
+    }
+
+    .chassis p {
+        margin-bottom: 1.6357546794957638em;
+        line-height: 1.6357546794957638;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    html.chassis {
+        font-size: 18px;
+        line-height: 1.7170357209177938;
+    }
+
+    .chassis body {
+        line-height: 1.7170357209177938;
+    }
+
+    .chassis h1 {
+        line-height: 1.464866279867866;
+        margin-bottom: .905337149931957em;
+    }
+
+    .chassis h2 {
+        line-height: 1.5611864354248755;
+        margin-bottom: .9648662798678658em;
+    }
+
+    .chassis h3 {
+        line-height: 1.7170357209177938;
+        margin-bottom: 1.0611864354248752em;
+    }
+
+    .chassis h4 {
+        line-height: 1.969205161967722;
+        margin-bottom: 1.217035720917794em;
+    }
+
+    .chassis h5 {
+        line-height: 1.969205161967722;
+        margin-bottom: 1.217035720917794em;
+    }
+
+    .chassis h6 {
+        line-height: 1.969205161967722;
+        margin-bottom: 1.217035720917794em;
+    }
+
+    .chassis legend {
+        line-height: 1.5611864354248755;
+        margin-bottom: .9648662798678658em;
+    }
+
+    .chassis section, .chassis nav, .chassis form {
+        margin-bottom: 2.7782221563426694em;
+    }
+
+    .chassis nav section, .chassis section nav, .chassis nav nav,
+    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
+    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
+        margin-bottom: 1.7170357209177938em;
+    }
+
+    .chassis p {
+        margin-bottom: 1.7170357209177938em;
+        line-height: 1.7170357209177938;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    html.chassis {
+        font-size: 19px;
+        line-height: 1.7798450935435028;
+    }
+
+    .chassis body {
+        line-height: 1.7798450935435028;
+    }
+
+    .chassis h1 {
+        line-height: 1.4888573253988295;
+        margin-bottom: .9201644314957388em;
+    }
+
+    .chassis h2 {
+        line-height: 1.600004762519621;
+        margin-bottom: .9888573253988296em;
+    }
+
+    .chassis h3 {
+        line-height: 1.7798450935435028;
+        margin-bottom: 1.1000047625196208em;
+    }
+
+    .chassis h4 {
+        line-height: 2.0708328616881766;
+        margin-bottom: 1.279845093543503em;
+    }
+
+    .chassis h5 {
+        line-height: 2.0708328616881766;
+        margin-bottom: 1.279845093543503em;
+    }
+
+    .chassis h6 {
+        line-height: 2.0708328616881766;
+        margin-bottom: 1.279845093543503em;
+    }
+
+    .chassis legend {
+        line-height: 1.600004762519621;
+        margin-bottom: .9888573253988296em;
+    }
+
+    .chassis section, .chassis nav, .chassis form {
+        margin-bottom: 2.8798498560631236em;
+    }
+
+    .chassis nav section, .chassis section nav, .chassis nav nav,
+    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
+    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
+        margin-bottom: 1.7798450935435028em;
+    }
+
+    .chassis p {
+        margin-bottom: 1.7798450935435028em;
+        line-height: 1.7798450935435028;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html.chassis {
+        font-size: 20px;
+        line-height: 1.8283665448744848;
+    }
+
+    .chassis body {
+        line-height: 1.8283665448744848;
+    }
+
+    .chassis h1 {
+        line-height: 1.5073908706237908;
+        margin-bottom: .9316187923767982em;
+    }
+
+    .chassis h2 {
+        line-height: 1.6299926686256414;
+        margin-bottom: 1.0073908706237906em;
+    }
+
+    .chassis h3 {
+        line-height: 1.8283665448744848;
+        margin-bottom: 1.1299926686256414em;
+    }
+
+    .chassis h4 {
+        line-height: 2.1493422191251788;
+        margin-bottom: 1.3283665448744846em;
+    }
+
+    .chassis h5 {
+        line-height: 2.1493422191251788;
+        margin-bottom: 1.3283665448744846em;
+    }
+
+    .chassis h6 {
+        line-height: 2.1493422191251788;
+        margin-bottom: 1.3283665448744846em;
+    }
+
+    .chassis legend {
+        line-height: 1.6299926686256414;
+        margin-bottom: 1.0073908706237906em;
+    }
+
+    .chassis section, .chassis nav, .chassis form {
+        margin-bottom: 2.9583592135001266em;
+    }
+
+    .chassis nav section, .chassis section nav, .chassis nav nav,
+    .chassis article, .chassis fieldset, .chassis figure, .chassis pre,
+    .chassis blockquote, .chassis table, .chassis canvas, .chassis embed {
+        margin-bottom: 1.8283665448744848em;
+    }
+
+    .chassis p {
+        margin-bottom: 1.8283665448744848em;
+        line-height: 1.8283665448744848;
+    }
+}
+
+.chassis a {
+    color: inherit;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    text-decoration: none;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    -webkit-text-decoration-style: solid;
+            text-decoration-style: solid;
+    -webkit-text-decoration-color: currentColor;
+            text-decoration-color: currentColor;
+    text-shadow: none;
+    text-transform: none;
+    unicode-bidi: normal;
+    vertical-align: baseline;
+    visibility: visible;
+    white-space: normal;
+    word-spacing: normal;
+}
+
+.chassis a {
+    color: rgb(200, 57, 57);
+}
+
+.chassis a:hover {
+    color: rgb(200, 57, 57);
+    text-decoration: underline;
+}
+
+.chassis a:active {
+    color: rgb(176, 48, 48);
+}
+
+.chassis a:disabled, .chassis a.disabled {
+    cursor: default;
+    pointer-events: none;
+    color: rgb(188, 189, 193);
+    text-decoration: none;
+}
+
+.chassis .polymath {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    height: 100vh;
+}
+
+.chassis .polymath > header {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 61.8%;
+        flex: 0 0 61.8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 320px;
+}
+
+.chassis .polymath > header .logo {
+    display: block;
+    max-width: 768px;
+    margin: 0 auto;
+    fill: white;
+}
+
+.chassis .polymath main {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+}
+
+.chassis .polymath main .width-constraint {
+    font-size: 20.352px;
+    font-size: 1.272019649514069rem;
+    text-align: center;
+}
+
+.chassis .polymath > footer {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+}
+
+.chassis .polymath > footer .width-constraint {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.chassis .polymath > footer .copyright {
+    padding-top: .6360098247570346em;
+    padding-bottom: .6360098247570346em;
+    color: rgb(188, 189, 193);
+}
+
+/*# sourceMappingURL=main.css.map */
