@@ -322,8 +322,8 @@ html.chassis {
 
 .chassis .polymath > header {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 61.8%;
-        flex: 0 0 61.8%;
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -334,7 +334,8 @@ html.chassis {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    min-height: 320px;
+    min-height: 61.8vh;
+    padding: 6.18vh 0;
 }
 
 .chassis .polymath > header .logo {
